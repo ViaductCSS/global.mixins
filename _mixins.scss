@@ -56,7 +56,7 @@
 
 @mixin media-query($breakpoint) {
     @media only screen and ('max-width': $breakpoint + px) {
-    	@content;
+      @content;
     }
 }
 
